@@ -81,6 +81,20 @@
 //     console.log(array[index]);
     
 // }
+//6:-
+/*let value = guessfunc(10);
+
+let num2=prompt("Enter guess number:");
+console.log("Random number:"+ value)
+if(num2==value){
+    console.log("You Win");
+}
+else{
+    console.log("Not Matched:");
+}
+function guessfunc(num) {
+    return Math.floor(Math.random() * num) + 1;
+}*/
 
 
 // 7:-
