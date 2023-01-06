@@ -1,27 +1,13 @@
-//Lab assignment Project login form
-
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
-import React from 'react'
-import Contact from './Contact';
-
-
-
-const App = () => {
-  return (
-    <View>
-      <Contact/>
-    </View>
-  )
-}
-
-export default App
+// import { StatusBar } from 'expo-status-bar';
+// import { StyleSheet, Text, View } from 'react-native';
+// import Api from './api';
+// import Loc from './loc';
 
 // export default function App() {
 //   return (
 //     <View style={styles.container}>
-//       <Text>Open up App.js to start working on your app!</Text>
+//       <Api/>
+//       {/* <Loc/> */}
 //       <StatusBar style="auto" />
 //     </View>
 //   );
@@ -35,3 +21,17 @@ export default App
 //     justifyContent: 'center',
 //   },
 // });
+import React from 'react';
+import MapView, { Callout } from 'react-native-maps';
+import { Marker,Circle } from 'react-native-maps';
+import { StyleSheet, View ,Text,useState} from 'react-native';
+import Locat from './Locat';
+import Navigation from './Navigation';
+
+export default function App() {
+  return(
+    <View><Locat/></View>
+  )
+}
+
+
